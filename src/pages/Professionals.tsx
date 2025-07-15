@@ -34,7 +34,7 @@ const Professionals = () => {
   const allProfessionals = [
     {
       id: 1,
-      name: "Dr. Sarah Johnson",
+      name: "Dr. Priya Sharma",
       profession: "Cardiologist",
       location: "New York, NY",
       rating: 4.9,
@@ -48,7 +48,7 @@ const Professionals = () => {
     },
     {
       id: 2,
-      name: "John Miller",
+      name: "Rahul Kapoor",
       profession: "Corporate Lawyer",
       location: "San Francisco, CA",
       rating: 4.8,
@@ -62,7 +62,7 @@ const Professionals = () => {
     },
     {
       id: 3,
-      name: "Emily Chen",
+      name: "Ananya Patel",
       profession: "Chartered Accountant",
       location: "Chicago, IL",
       rating: 4.7,
@@ -76,7 +76,7 @@ const Professionals = () => {
     },
     {
       id: 4,
-      name: "Dr. Michael Brown",
+      name: "Dr. Arjun Singh",
       profession: "Orthopedic Surgeon",
       location: "Los Angeles, CA",
       rating: 4.9,
@@ -90,7 +90,7 @@ const Professionals = () => {
     },
     {
       id: 5,
-      name: "Lisa Anderson",
+      name: "Neha Gupta",
       profession: "Architect",
       location: "Seattle, WA",
       rating: 4.6,
@@ -104,7 +104,7 @@ const Professionals = () => {
     },
     {
       id: 6,
-      name: "Robert Wilson",
+      name: "Vikram Joshi",
       profession: "Civil Engineer",
       location: "Austin, TX",
       rating: 4.5,
@@ -142,7 +142,9 @@ const Professionals = () => {
   const filteredProfessionals = allProfessionals.filter(professional => {
     const matchesSearch = !searchQuery || 
       professional.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      professional.profession.toLowerCase().includes(searchQuery.toLowerCase());
+      professional.profession.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      professional.location.toLowerCase().includes(searchQuery.toLowerCase());
+      ;
     
     const matchesLocation = !selectedLocation || selectedLocation === "all locations" ||
       professional.location.toLowerCase().includes(selectedLocation.toLowerCase());

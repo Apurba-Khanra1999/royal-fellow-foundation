@@ -40,7 +40,7 @@ const Index = () => {
   const featuredProfessionals = [
     {
       id: 1,
-      name: "Dr. Sarah Johnson",
+      name: "Dr. Priya Sharma",
       profession: "Cardiologist",
       location: "New York, NY",
       rating: 4.9,
@@ -49,11 +49,12 @@ const Index = () => {
       fee: 200,
       image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop",
       verified: true,
-      nextAvailable: "Today"
+      nextAvailable: "Today",
+      category: "doctors"
     },
     {
       id: 2,
-      name: "John Miller",
+      name: "Rahul Kapoor",
       profession: "Corporate Lawyer",
       location: "San Francisco, CA",
       rating: 4.8,
@@ -62,11 +63,12 @@ const Index = () => {
       fee: 350,
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
       verified: true,
-      nextAvailable: "Tomorrow"
+      nextAvailable: "Tomorrow",
+      category: "lawyers"
     },
     {
       id: 3,
-      name: "Emily Chen",
+      name: "Ananya Patel",
       profession: "Chartered Accountant",
       location: "Chicago, IL",
       rating: 4.7,
@@ -75,7 +77,50 @@ const Index = () => {
       fee: 150,
       image: "https://images.unsplash.com/photo-1659353219673-9ea4cc2bbffb?w=400&h=400&fit=crop",
       verified: true,
-      nextAvailable: "Today"
+      nextAvailable: "Today",
+      category: "cas"
+    },
+    {
+      id: 4,
+      name: "Dr. Arjun Singh",
+      profession: "Orthopedic Surgeon",
+      location: "Los Angeles, CA",
+      rating: 4.9,
+      reviews: 203,
+      experience: 15,
+      fee: 300,
+      image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop",
+      verified: true,
+      nextAvailable: "Next Week",
+      category: "doctors"
+    },
+    {
+      id: 5,
+      name: "Neha Gupta",
+      profession: "Architect",
+      location: "Seattle, WA",
+      rating: 4.6,
+      reviews: 94,
+      experience: 10,
+      fee: 180,
+      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
+      verified: true,
+      nextAvailable: "Tomorrow",
+      category: "architects"
+    },
+    {
+      id: 6,
+      name: "Vikram Joshi",
+      profession: "Civil Engineer",
+      location: "Austin, TX",
+      rating: 4.5,
+      reviews: 67,
+      experience: 9,
+      fee: 220,
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      verified: true,
+      nextAvailable: "Today",
+      category: "engineers"
     }
   ];
 
@@ -95,6 +140,7 @@ const Index = () => {
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter') {
       handleSearch();
+      
     }
   };
 

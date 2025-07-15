@@ -38,14 +38,14 @@ const ProfessionalDashboard = () => {
   const [statusFilter, setStatusFilter] = useState("all");
   
   const [profileData, setProfileData] = useState({
-    name: "Dr. Sarah Johnson",
+    name: "Dr. Priya Sharma",
     profession: "Cardiologist",
     specialization: "Interventional Cardiology",
     experience: "12",
     email: "dr.johnson@example.com",
     phone: "+1 (555) 123-4567",
     location: "New York, NY",
-    about: "Dr. Sarah Johnson is a board-certified cardiologist with over 12 years of experience in interventional cardiology. She specializes in complex cardiac procedures and has published numerous research papers in peer-reviewed journals.",
+    about: "Dr. Priya Sharma is a board-certified cardiologist with over 12 years of experience in interventional cardiology. She specializes in complex cardiac procedures and has published numerous research papers in peer-reviewed journals.",
     consultationFee: "200",
     license: "MD123456",
     languages: "English, Spanish",
