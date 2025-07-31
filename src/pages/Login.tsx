@@ -65,7 +65,7 @@ const Login = () => {
         <div className="text-center mb-8">
           <Link to="/" className="inline-flex items-center space-x-2">
             <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
-              <span className="text-white font-bold text-lg">RF</span>
+              <span className="text-white font-bold text-lg">RFF</span>
             </div>
             <div className="text-left">
               <div className="text-2xl font-bold text-primary">Royal Fellow</div>

@@ -8,7 +8,7 @@ const TestimonialsSection = () => {
     {
       name: "Sarah Johnson",
       role: "Student",
-      content: "ProfConnect helped me find the perfect college and connected me with amazing social workers who guided me through my academic journey.",
+      content: "RoyalFellowFoundation helped me find the perfect college and connected me with amazing social workers who guided me through my academic journey.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b386?w=80&h=80&fit=crop"
     },

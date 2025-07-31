@@ -36,7 +36,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      details: 'contact@profconnect.com',
+      details: 'contact@royalfellowfoundation.com',
       description: 'Send us an email anytime'
     },
     {

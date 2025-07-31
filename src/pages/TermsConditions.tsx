@@ -24,14 +24,14 @@ const TermsConditions = () => {
               <div className="prose prose-lg max-w-none">
                 <h2 className="text-2xl font-semibold text-foreground mb-4">Agreement to Terms</h2>
                 <p className="text-muted-foreground mb-6">
-                  By accessing and using ProfConnect, you accept and agree to be bound by the terms and 
+                  By accessing and using RoyalFellowFoundation, you accept and agree to be bound by the terms and 
                   provision of this agreement. These Terms and Conditions govern your use of our website 
                   and services.
                 </p>
 
                 <h2 className="text-2xl font-semibold text-foreground mb-4">Use License</h2>
                 <p className="text-muted-foreground mb-4">
-                  Permission is granted to temporarily access and use ProfConnect for personal, 
+                  Permission is granted to temporarily access and use RoyalFellowFoundation for personal, 
                   non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
                 </p>
                 <ul className="text-muted-foreground mb-6 space-y-2">
@@ -50,14 +50,14 @@ const TermsConditions = () => {
 
                 <h2 className="text-2xl font-semibold text-foreground mb-4">Professional Services</h2>
                 <p className="text-muted-foreground mb-6">
-                  ProfConnect serves as a platform connecting users with professional service providers. 
+                  RoyalFellowFoundation serves as a platform connecting users with professional service providers. 
                   We do not provide professional services directly and are not responsible for the quality, 
                   accuracy, or completeness of services provided by third-party professionals.
                 </p>
 
                 <h2 className="text-2xl font-semibold text-foreground mb-4">Payment Terms</h2>
                 <p className="text-muted-foreground mb-6">
-                  Payment for services is handled directly between users and service providers. ProfConnect 
+                  Payment for services is handled directly between users and service providers. RoyalFellowFoundation 
                   may charge platform fees as specified at the time of service booking. All fees are 
                   non-refundable unless otherwise specified.
                 </p>
@@ -95,7 +95,7 @@ const TermsConditions = () => {
 
                 <h2 className="text-2xl font-semibold text-foreground mb-4">Limitation of Liability</h2>
                 <p className="text-muted-foreground mb-6">
-                  In no event shall ProfConnect, nor its directors, employees, partners, agents, suppliers, 
+                  In no event shall RoyalFellowFoundation, nor its directors, employees, partners, agents, suppliers, 
                   or affiliates, be liable for any indirect, incidental, special, consequential, or punitive 
                   damages, including without limitation, loss of profits, data, use, goodwill, or other 
                   intangible losses.
@@ -111,7 +111,7 @@ const TermsConditions = () => {
                 <p className="text-muted-foreground">
                   If you have any questions about these Terms and Conditions, please contact us at:
                   <br />
-                  Email: legal@profconnect.com
+                  Email: legal@RoyalFellowFoundation.com
                   <br />
                   Phone: +1 (555) 123-4567
                   <br />

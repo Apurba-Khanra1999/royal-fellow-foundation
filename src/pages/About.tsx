@@ -37,7 +37,7 @@ const About = () => {
         {/* Hero Section */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            About ProfConnect
+            About RoyalFellowFoundation
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Bridging the gap between professional social work services and educational opportunities 
@@ -50,7 +50,7 @@ const About = () => {
           <CardContent className="p-8">
             <h2 className="text-3xl font-bold text-foreground mb-6 text-center">Our Mission</h2>
             <p className="text-lg text-muted-foreground text-center max-w-4xl mx-auto leading-relaxed">
-              At ProfConnect, we believe that access to quality social work services and educational 
+              At RoyalFellowFoundation, we believe that access to quality social work services and educational 
               information should be available to everyone. Our platform connects individuals with 
               certified social workers and provides comprehensive educational resources to empower 
               communities and foster personal growth.
@@ -113,7 +113,7 @@ const About = () => {
             <h2 className="text-3xl font-bold text-foreground mb-6 text-center">Our Story</h2>
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="mb-4">
-                ProfConnect was founded with a simple yet powerful vision: to create a platform that 
+                RoyalFellowFoundation was founded with a simple yet powerful vision: to create a platform that 
                 democratizes access to professional social work services and educational information. 
                 Recognizing the barriers that often prevent individuals from accessing the help they need, 
                 we set out to build a solution that would connect people with qualified professionals 
@@ -126,7 +126,7 @@ const About = () => {
                 educational content and resources.
               </p>
               <p>
-                Today, ProfConnect serves thousands of users, helping them find the professional 
+                Today, RoyalFellowFoundation serves thousands of users, helping them find the professional 
                 support they need and the educational opportunities that can transform their lives. 
                 We continue to grow and evolve, always with our core mission at heart: making 
                 professional services and education accessible to all.

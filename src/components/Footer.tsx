@@ -41,7 +41,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">RF</span>
+                <span className="text-white font-bold text-sm">RFF</span>
               </div>
               <div className="text-left">
                 <div className="text-xl font-bold text-foreground">Royal Fellow</div>

@@ -36,7 +36,7 @@ const Header = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-                <span className="text-primary font-bold text-sm">RF</span>
+                <span className="text-primary font-bold text-sm">RFF</span>
               </div>
               <span className="text-xl font-bold text-white">Royal Fellow Foundation</span>
             </Link>
@@ -66,7 +66,7 @@ const Header = () => {
           {/* Desktop Auth Buttons */}
           <div className="hidden md:flex items-center space-x-4">
             <Link to="/login">
-              <Button variant="outline" size="sm" className="border-white text-white hover:bg-white hover:text-primary">
+              <Button variant="outline" size="sm" className="border-white text-black hover:bg-white hover:text-primary">
                 Login
               </Button>
             </Link>
