@@ -67,7 +67,7 @@ const Professionals = () => {
       reviews: 156,
       experience: 6,
       fee: 150,
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b386?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1600275669439-14e40452d20b?w=400&h=400&fit=crop",
       verified: true,
       nextAvailable: "Today",
       category: "cas"

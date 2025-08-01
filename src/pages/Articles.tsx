@@ -131,7 +131,7 @@ const Articles = () => {
       updatedAt: "2024-02-05",
       readTime: 9,
       tags: ["pediatrics", "development", "children", "health"],
-      featuredImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      featuredImage: "https://images.unsplash.com/photo-1593350074319-18e751f47001?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       views: 945,
       rating: 4.9
     },

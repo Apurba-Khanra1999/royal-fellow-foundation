@@ -35,7 +35,7 @@ const SocialWorkerSection = () => {
       rating: 5.0,
       experience: "10 years",
       location: "Chicago, IL",
-      image: "https://images.unsplash.com/photo-1594824047495-95cebfcd8c98?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1600275669439-14e40452d20b?w=400&h=400&fit=crop",
       description: "Dedicated to helping children and adolescents overcome emotional challenges."
     },
     {
