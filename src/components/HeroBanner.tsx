@@ -25,7 +25,7 @@ const HeroBanner = () => {
     {
       title: "Quality Education Resources",
       description: "Discover top colleges and institutions with comprehensive information about courses, admissions, and facilities.",
-      image: "https://images.unsplash.com/photo-1523050854058-8df90110c9d1?w=800&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=400&fit=crop",
       cta: "Explore Education"
     },
     {
