@@ -188,6 +188,17 @@ const Professionals = () => {
       <Header />
       
       <div className="container mx-auto px-4 py-8">
+
+        {/* Hero Section */}
+        <div className="text-center mb-8">
+          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+            Professional Experts
+          </h1>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Discover colleges, universities, and institutions that match your educational goals and aspirations.
+          </p>
+        </div>
+
         <div className="flex gap-8">
           {/* Left Sidebar - Filters */}
           <div className="w-80 space-y-6">
