@@ -156,6 +156,7 @@ const Professionals = () => {
     return matchesSearch && matchesLocation && matchesCategory && matchesRating && matchesFee;
   });
 
+
   // Sort professionals
   const sortedProfessionals = [...filteredProfessionals].sort((a, b) => {
     switch (sortBy) {
