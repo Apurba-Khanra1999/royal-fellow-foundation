@@ -35,9 +35,10 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+              {/* <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
                 <span className="text-primary font-bold text-sm">RFF</span>
-              </div>
+              </div> */}
+              <img src={"/favicon1.jpg"} alt="" width={40} className='rounded-lg'/>
               <span className="text-xl font-bold text-white">Royal Fellow Foundation</span>
             </Link>
           </div>

@@ -14,6 +14,7 @@ const Education = () => {
   const [selectedType, setSelectedType] = useState('');
   const [selectedLocation, setSelectedLocation] = useState('');
   const [selectedRating, setSelectedRating] = useState('');
+  const [showMore, setShowMore] = useState(false);
 
   // Mock data for colleges and institutions
   const colleges = [
@@ -138,6 +139,86 @@ const Education = () => {
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Discover colleges, universities, and institutions that match your educational goals and aspirations.
           </p>
+        </div>
+
+        <div className="mb-8">
+          <p className="text-lg text-justify max-w-6xl mx-auto">
+            In today’s fast-evolving global economy, professionals must stay informed, skilled, and connected. The <b>Royal Fellow Foundation (RFF)</b> plays a transformative role in this space by offering accessible, affordable, and high-quality educational programs, conferences, and a robust global community network.
+            RFF empowers professionals to earn advanced degrees and certifications—both online and offline—while fostering collaboration through its vibrant community of learners and leaders. This article explores RFF’s educational mission and global impact.
+          </p>
+          <div className="text-center mt-6">
+            <Button
+              onClick={() => setShowMore(true)}
+              variant="outline"
+              className="px-6"
+              style={{ display: showMore ? 'none' : 'inline-flex' }}
+            >
+              Read More
+            </Button>
+          </div>
+          {showMore && (
+            <div className="flex gap-8 mt-6">
+              {/* Table of Contents */}
+              <div className="w-1/4">
+                <Card className="sticky top-20 shadow-lg border-border">
+                  <CardHeader>
+                    <CardTitle className="text-lg font-semibold">Table of Contents</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="space-y-2">
+                      <li>
+                        <a href="#mission" className="text-primary hover:underline">
+                          RFF's Mission
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#programs" className="text-primary hover:underline">
+                          Educational Programs
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#community" className="text-primary hover:underline">
+                          Global Community
+                        </a>
+                      </li>
+                    </ul>
+                  </CardContent>
+                </Card>
+              </div>
+              {/* Expanded Content */}
+              <div className="w-3/4">
+                <div className="text-lg max-w-4xl mx-auto space-y-6">
+                  <div id="mission" className="scroll-mt-20">
+                    <h2 className="text-2xl font-bold">RFF's Mission</h2>
+                    <p>
+                      The Royal Fellow Foundation is dedicated to empowering professionals by providing accessible education and fostering a global network of collaboration. Its mission is to bridge the gap between traditional education and the demands of the modern workforce.
+                    </p>
+                  </div>
+                  <div id="programs" className="scroll-mt-20">
+                    <h2 className="text-2xl font-bold">Educational Programs</h2>
+                    <p>
+                      RFF offers a wide range of programs, including online and offline degrees, certifications, and professional development courses. These programs are designed to be flexible and affordable, catering to professionals at all career stages.
+                    </p>
+                  </div>
+                  <div id="community" className="scroll-mt-20">
+                    <h2 className="text-2xl font-bold">Global Community</h2>
+                    <p>
+                      RFF’s global community connects learners, educators, and industry leaders. Through conferences, workshops, and online platforms, RFF fosters collaboration and knowledge-sharing across borders.
+                    </p>
+                  </div>
+                  <div className="mt-6">
+                    <Button
+                      onClick={() => setShowMore(false)}
+                      variant="outline"
+                      className="px-6"
+                    >
+                      Read Less
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
 
         <div className="flex gap-8">
